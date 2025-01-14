@@ -32,3 +32,4 @@ if __name__ == '__main__':
     links = parse_page(request)
     hrefs_table_r, hrefs_table_s = split_tabs(links)
     downloads_tab_S(hrefs_table_s)
+    downloads_tab_R(hrefs_table_r)
